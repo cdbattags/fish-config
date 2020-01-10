@@ -1,0 +1,22 @@
+# set git_color_added green
+# set git_color_deleted yellow
+# set git_color_modified red
+# set git_color_untracked magenta
+
+function git_prompt_circle
+  if git_is_staged
+    set color $git_color_added
+  end
+
+  if git_is_
+    set color $git_color_added
+  end
+
+  if git_is_staged
+    set color $git_color_added
+  end
+
+  if git_is_staged
+    set color $git_color_added
+  end
+end
