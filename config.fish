@@ -9,9 +9,9 @@ set -l core_function_path $FISH_CONFIG/lib/{,git,functions}
 
 # virtualenv support in fish
 set -g VIRTUALFISH_COMPAT_ALIASES
-. "$FISH_CONFIG/plugins/virtualfish/virtual.fish"
-. "$FISH_CONFIG/plugins/virtualfish/auto_activation.fish"
-. "$FISH_CONFIG/plugins/virtualfish/global_requirements.fish"
+. "$FISH_CONFIG/plugins/virtualfish/virtualfish/virtual.fish"
+. "$FISH_CONFIG/plugins/virtualfish/virtualfish/auto_activation.fish"
+. "$FISH_CONFIG/plugins/virtualfish/virtualfish/global_requirements.fish"
 
 # nvm-wrapper
 . "$FISH_CONFIG/plugins/nvm-wrapper/nvm.fish"
